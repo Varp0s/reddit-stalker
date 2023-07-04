@@ -1,4 +1,4 @@
-## reddit-stakler
+## reddit-stalker
 
 Reddit Stalker, bir Python uygulamasıdır ve belirli bir alt dizindeki gönderileri tarar. Bu gönderileri bir SQLite veritabanında saklar. Aynı zamanda, taranan gönderileri almak ve filtrelemek için bir API sunucusu da sunar.
 
