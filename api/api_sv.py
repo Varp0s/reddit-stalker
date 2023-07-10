@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.urandom(16)
+app.config['SECRET_KEY'] = os.urandom(32)
 
 DATABASE = 'posts.db'
 
@@ -69,5 +69,5 @@ if __name__ == '__main__':
 
     logger = logging.getLogger('')
     logger.addHandler(file_handler)
-
-    run_api_server()
+    
+    run_api_server() 

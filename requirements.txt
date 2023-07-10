@@ -1,2 +1,4 @@
-praw
 flask
+playwright
+pytest-playwright
+db-sqlite3
